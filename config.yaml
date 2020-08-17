@@ -1,0 +1,107 @@
+baseURL: https://n-mouse.github.io/proteus
+theme: hugo-fresh
+title: Proteus Headlamp 
+publishDir: docs
+languages:
+  uk:
+    languageName: Ukrainian
+    weight: 1
+    hero:
+      title: Оптимальний налобний ліхтар.
+      subtitle: Proteus було розроблено з урахуванням досвіду багатьох спелео, альпіністських та туристичних експедицій в найвіддаленіші куточки світу в найтяжчих умовах. 
+      buttontext: Замовити 
+      buttonlink: "#"
+      image: photos/product.png 
+    navbar:
+    - title: Переваги 
+      url: "#advantages" 
+    - title: Характеристики 
+      url: "#specs" 
+    - title: Замовити 
+      url: /
+    - title: en
+      url: /en
+      img: true
+  en:
+    languageName: English
+    weight: 2
+    hero:
+      title: Optimal headlamp.
+      subtitle: Proteus було розроблено з урахуванням досвіду багатьох спелео, альпіністських та туристичних експедицій в найвіддаленіші куточки світу в найтяжчих умовах. 
+      buttontext: Order 
+      buttonlink: "#"
+      image: photos/product.png 
+    navbar:
+    - title: Advantages 
+      url: "#advantages" 
+    - title: Specifications 
+      url: "#specs" 
+    - title: Order 
+      url: /
+    - title: ua
+      url: /
+      img: true
+DefaultContentLanguage: uk
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+params:
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/proteus.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  section2:
+    title: Переваги Proteus 
+    features:
+    - title: Повністю алюмінієвий корпус 
+    - title: Водонепроникний 
+    - title: До 45 годин роботи
+    - title: Оптимізовані з врахуванням особливостей зору кути світла
+    - title: Відсутність пульсацій світлового потоку
+    - title: Регулювання балансу направленого та фонового світла
+    - title: Зручне та інтуїтивне керування
+    - title: Рівномірне балансування ваги ліхтаря за рахунок виносного батарейного відсіку
+    - title: Надійний провід, що витримує найжорсткіші умови експлуатації
+    - title: Розроблений та виготовлений в Україні
+  section3:
+    title: Технічні характеристики 
+    image: chart.png
+    features:
+    - title: "Корпус:"
+      text: анодований алюміній
+    - title: "Вага:"
+      text: 115г (без елемента живлення)
+    - title: "Розміри:"
+      text: Ліхтар - 40х40х40 мм, батарейний відсік - 20х20х70 мм
+    - title: "Світлодіоди:"
+      text: CREE (2 білих, 2 червоних)
+    - title: "Світловий потік:"
+      text: "до 450 люмен"
+    - title: "Час роботи:"
+      text: 8год (140lm), 45год (30lm), 200год (red)
+    - title: "Батарея:"
+      text: 1 х 18650 Li-Ion (не в комплекті)
+    - title: "Вологозахист:"
+      text: IPX7 (30 хв занурення до 1 м)
+  section4:
+    photos:
+      - name: photo1
+      - name: photo2
+      - name: photo3
+      - name: photo4
+      - name: red
+      - name: silver
+      - name: blue
+      - name: black      
+  section5: true 
