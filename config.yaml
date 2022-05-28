@@ -10,7 +10,7 @@ languages:
       title: Оптимальний налобний ліхтар.
       subtitle: Proteus було розроблено з урахуванням досвіду багатьох спелео, альпіністських та туристичних експедицій в найвіддаленіші куточки світу в найтяжчих умовах. 
       buttontext: Замовити 
-      buttonlink: "#"
+      buttonlink: "#order"
       image: photos/product.png 
     navbar:
     - title: Переваги 
@@ -18,7 +18,7 @@ languages:
     - title: Характеристики 
       url: "#specs" 
     - title: Замовити 
-      url: /
+      url: "#order"
     - title: en
       url: en
       img: true
@@ -29,7 +29,7 @@ languages:
       title: Optimal headlamp.
       subtitle: Proteus було розроблено з урахуванням досвіду багатьох спелео, альпіністських та туристичних експедицій в найвіддаленіші куточки світу в найтяжчих умовах. 
       buttontext: Order 
-      buttonlink: "#"
+      buttonlink: "#order"
       image: photos/product.png 
     navbar:
     - title: Advantages 
@@ -37,7 +37,7 @@ languages:
     - title: Specifications 
       url: "#specs" 
     - title: Order 
-      url: /
+      url: "#order"
     - title: ua
       url: ../
       img: true
