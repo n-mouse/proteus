@@ -1,4 +1,4 @@
-baseURL: https://n-mouse.github.io/proteus
+baseURL: / 
 theme: hugo-fresh
 title: Proteus Headlamp 
 publishDir: docs
@@ -20,7 +20,7 @@ languages:
     - title: Замовити 
       url: /
     - title: en
-      url: /en
+      url: en
       img: true
   en:
     languageName: English
@@ -39,7 +39,7 @@ languages:
     - title: Order 
       url: /
     - title: ua
-      url: /
+      url: ../
       img: true
 DefaultContentLanguage: uk
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
