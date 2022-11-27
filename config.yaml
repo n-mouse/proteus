@@ -53,7 +53,7 @@ markup:
       unsafe: true # Allows you to write raw html in your md files
 params:
   # Used as meta data; describe your site to make Google Bots happy 
-  description: 
+  description: Оптимальний налобний ліхтар. Розроблено спелеологами
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/proteus.png
